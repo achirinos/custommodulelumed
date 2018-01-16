@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="ModuleDemo.Views.BrowserView"
+﻿<UserControl
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -8,6 +8,7 @@
              xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
              xmlns:u="clr-namespace:ModuleDemo.Utility"
              xmlns:local="clr-namespace:ModuleDemo.Views"
+             xmlns:eo="http://schemas.essentialobjects.com/wpf/" x:Class="ModuleDemo.Views.BrowserView"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
 
@@ -21,7 +22,7 @@
         </ResourceDictionary>
     </UserControl.Resources>
 
-    
+
     <Grid Background="White">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -31,7 +32,7 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        
+
         <controls:TitleBarControl Title="Browser">
             <Button Tag="{StaticResource IconAccept}"
                     HorizontalAlignment="Right"
@@ -42,8 +43,17 @@
                 </i:Interaction.Behaviors>
             </Button>
         </controls:TitleBarControl>
-        
-        <TextBox Grid.Row="1" Text="{Binding SetPage}" />       
-        <WebBrowser u:WebBrowserUtility.BindableSource="{Binding GoPage}" Grid.Row="2" Grid.ColumnSpan="2" />
+
+        <TextBox Grid.Row="1" Text="{Binding SetPage}" />
+
+        <eo:WebControl Grid.Row="2">
+            <eo:WebControl.WebView>
+                <eo:WebView >
+                </eo:WebView>
+            </eo:WebControl.WebView>
+        </eo:WebControl>
+
+        <!--<WebBrowser u:WebBrowserUtility.BindableSource="{Binding GoPage}" Grid.Row="2" Grid.ColumnSpan="2" />-->
+
     </Grid>
 </UserControl>

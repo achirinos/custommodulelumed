@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using EO.WebBrowser;
 
 namespace ModuleDemo.Utility
 {
@@ -25,8 +26,7 @@ namespace ModuleDemo.Utility
 
         public static void BindableSourcePropertyChanged(DependencyObject o, DependencyPropertyChangedEventArgs e)
         {
-            WebBrowser browser = o as WebBrowser;
-            if (browser != null)
+            if (o is WebBrowser browser)
             {
                 string uri = e.NewValue as string;
                 browser.Source = !String.IsNullOrEmpty(uri) ? new Uri(uri) : null;
@@ -34,4 +34,5 @@ namespace ModuleDemo.Utility
         }
 
     }
+    
 }

@@ -83,3 +83,13 @@ C:\Source\ModuleDemo\ModuleDemo\bin\Debug\Telerik.Windows.Controls.dll
 C:\Source\ModuleDemo\ModuleDemo\bin\Debug\Telerik.Windows.Controls.Input.dll
 C:\Source\ModuleDemo\ModuleDemo\bin\Debug\Telerik.Windows.Controls.xml
 C:\Source\ModuleDemo\ModuleDemo\bin\Debug\Telerik.Windows.Controls.Input.xml
+C:\Source\ModuleDemo\ModuleDemo\bin\Debug\EO.Base.dll
+C:\Source\ModuleDemo\ModuleDemo\bin\Debug\EO.Wpf.dll
+C:\Source\ModuleDemo\ModuleDemo\bin\Debug\EO.Base.xml
+C:\Source\ModuleDemo\ModuleDemo\bin\Debug\EO.Wpf.xml
+C:\Source\ModuleDemo\ModuleDemo\bin\Debug\EO.WebBrowser.dll
+C:\Source\ModuleDemo\ModuleDemo\bin\Debug\EO.WebBrowser.Wpf.dll
+C:\Source\ModuleDemo\ModuleDemo\bin\Debug\EO.WebEngine.dll
+C:\Source\ModuleDemo\ModuleDemo\bin\Debug\EO.WebBrowser.xml
+C:\Source\ModuleDemo\ModuleDemo\bin\Debug\EO.WebBrowser.Wpf.xml
+C:\Source\ModuleDemo\ModuleDemo\bin\Debug\EO.WebEngine.xml
