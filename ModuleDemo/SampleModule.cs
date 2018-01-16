@@ -11,7 +11,7 @@ namespace ModuleDemo
 {
     [Export(typeof(IModule))]
     [PartCreationPolicy(CreationPolicy.NonShared)]
-    public class TileClockModule : TabItem, IModule, IPartImportsSatisfiedNotification
+    public class SampleModule : TabItem, IModule, IPartImportsSatisfiedNotification
     {   
         [Import]
         private TitleClockModuleView view = null;
@@ -22,7 +22,7 @@ namespace ModuleDemo
 
         public int Order { get; } = 1000;
 
-        public TileClockModule()
+        public SampleModule()
         {
             Header = Title;
         }

@@ -23,7 +23,7 @@ namespace ModuleDemo.Views
     {
         
         [ImportingConstructor]
-        public TitleClockModuleView(TileClockModuleViewModel viewModel)
+        public TitleClockModuleView(SampleModuleViewModel viewModel)
         {
             InitializeComponent();
             DataContext = viewModel;

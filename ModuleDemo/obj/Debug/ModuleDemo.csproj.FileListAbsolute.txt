@@ -93,3 +93,6 @@ C:\Source\ModuleDemo\ModuleDemo\bin\Debug\EO.WebEngine.dll
 C:\Source\ModuleDemo\ModuleDemo\bin\Debug\EO.WebBrowser.xml
 C:\Source\ModuleDemo\ModuleDemo\bin\Debug\EO.WebBrowser.Wpf.xml
 C:\Source\ModuleDemo\ModuleDemo\bin\Debug\EO.WebEngine.xml
+C:\Source\ModuleDemo\ModuleDemo\obj\Debug\Views\Configurations\BrowserConfigurationView.g.cs
+C:\Source\ModuleDemo\ModuleDemo\obj\Debug\Views\Configurations\BrowserConfigurationView.baml
+C:\Source\ModuleDemo\ModuleDemo\obj\Debug\Assets\Vectors.baml

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 
-3228839669
+5-2099359719
 
-13-1752757692
+16-469410988
 89-1645613635
-Views\BrowserView.xaml;Views\ClockView.xaml;Views\TileClockModuleView.xaml;
+Assets\Vectors.xaml;Views\BrowserView.xaml;Views\ClockView.xaml;Views\Configurations\BrowserConfigurationView.xaml;Views\TileClockModuleView.xaml;
 
-True
+False
 

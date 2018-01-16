@@ -56,9 +56,7 @@ namespace ModuleDemo.ViewModels
         public BrowserViewModel()
         {
             GoCommand = new DelegateCommand(GoCommandExecute);
-            GoPage = "http://www.google.com";
-            logger?.Log("Go Page es" + GoPage, Category.Info, Priority.None);
-
+            
             if (Assembly.GetEntryAssembly()?.GetName().Name != null)
             {
                 path = Path.Combine(Environment.CurrentDirectory, Assembly.GetEntryAssembly().GetName().Name + ".exe");
@@ -71,12 +69,12 @@ namespace ModuleDemo.ViewModels
         private void GoCommandExecute()
         {
             GoPage = setPage;
-            logger?.Log("Entra a GoExecute", Category.Info, Priority.None);
         }
 
         private void LoadStoredValues()
         {
             SetPage = configHelper.GetValue("DefaultPage");
+            GoPage = SetPage;
         }
 
     }

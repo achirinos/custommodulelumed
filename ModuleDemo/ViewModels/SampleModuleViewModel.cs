@@ -16,7 +16,7 @@ namespace ModuleDemo.ViewModels{
 
     [Export]
     [PartCreationPolicy(CreationPolicy.Shared)]
-    public class TileClockModuleViewModel: ViewModelBase
+    public class SampleModuleViewModel: ViewModelBase
     {
         private bool canNavigate;
 
@@ -24,7 +24,7 @@ namespace ModuleDemo.ViewModels{
 
         public ICommand LoadCommand { get; }
 
-        public TileClockModuleViewModel()
+        public SampleModuleViewModel()
         {
             Title = "Browser";
             View = nameof(BrowserView);
