@@ -26,8 +26,8 @@ namespace ModuleDemo.ViewModels{
 
         public TileClockModuleViewModel()
         {
-            Title = "Show the Clock";
-            View = nameof(ClockView);
+            Title = "Browser";
+            View = nameof(BrowserView);
             LoadCommand = new DelegateCommand(LoadCommandExecute);
         }        
 

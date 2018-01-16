@@ -4,17 +4,17 @@
 library
 C#
 .cs
-c:\users\telemedicina\source\repos\ModuleDemo\ModuleDemo\obj\Debug\
+C:\Source\ModuleDemo\ModuleDemo\obj\Debug\
 ModuleDemo
 none
 false
 DEBUG;TRACE
 
-2-2132805429
+3228839669
 
-10389046443
-81-1065024390
-Views\ClockView.xaml;Views\TileClockModuleView.xaml;
+13-1752757692
+841820763388
+Views\BrowserView.xaml;Views\ClockView.xaml;Views\TileClockModuleView.xaml;
 
 True
 

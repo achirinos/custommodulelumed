@@ -16,7 +16,7 @@ namespace ModuleDemo
         [Import]
         private TitleClockModuleView view = null;
 
-        public string Title => "Tile Clock";
+        public string Title => "Browser";
 
         public object View => view;
 

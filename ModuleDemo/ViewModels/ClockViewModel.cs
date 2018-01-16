@@ -11,12 +11,10 @@ using System.Windows.Threading;
 namespace ModuleDemo.ViewModels
 {
     [Export]
-    public class ClockViewModel : ViewModelBase, INotifyPropertyChanged
+    public class ClockViewModel : ViewModelBase
     {
         DateTime dateTime;
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
+        
         public ClockViewModel()
         {
             this.DateTime = DateTime.Now;          
@@ -35,6 +33,8 @@ namespace ModuleDemo.ViewModels
             this.DateTime = DateTime.Now;
         }
 
+        
+
         public DateTime DateTime
         {
             set
@@ -43,10 +43,7 @@ namespace ModuleDemo.ViewModels
                 {
                     dateTime = value;
 
-                    if (PropertyChanged != null)
-                    {
-                        PropertyChanged(this, new PropertyChangedEventArgs("DateTime"));
-                    }
+                    OnPropertyChanged();
                 }
             }
             get

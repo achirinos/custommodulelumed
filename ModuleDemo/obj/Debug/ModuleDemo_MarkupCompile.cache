@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 
-2-2132805429
+3228839669
 
-10389046443
-811665106395
-Views\ClockView.xaml;Views\TileClockModuleView.xaml;
+91659086711
+841820763388
+Views\BrowserView.xaml;Views\ClockView.xaml;Views\TileClockModuleView.xaml;
 
-True
+False
 
